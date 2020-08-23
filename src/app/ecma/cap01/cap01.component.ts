@@ -11,6 +11,7 @@ export class Cap01Component implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    /*
     this.iterarUmArray();
     this.testForeach();
     this.testForeachDois();
@@ -22,6 +23,7 @@ export class Cap01Component implements OnInit {
     this.testSome();
     this.testReduce();
     this.testReduceDois();
+    */
   }
 
   testReduceDois() {
