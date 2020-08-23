@@ -9,11 +9,13 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { environment } from '../environments/environment';
 import { Cap01Component } from './ecma/cap01/cap01.component';
+import { Cap02Component } from './ecma/cap02/cap02.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    Cap01Component
+    Cap01Component,
+    Cap02Component
   ],
   imports: [
     BrowserModule,
