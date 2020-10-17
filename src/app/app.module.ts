@@ -8,17 +8,10 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { environment } from '../environments/environment';
-import { Cap01Component } from './ecma/cap01/cap01.component';
-import { Cap02Component } from './ecma/cap02/cap02.component';
-import { Cap05Component } from './ecma/cap05/cap05.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    Cap01Component,
-    Cap02Component,
-    Cap05Component
-  ],
+    AppComponent,  ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
